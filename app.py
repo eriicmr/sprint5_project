@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly_express as px
 
+st.header('Car Sales Analysis')
+
 car_data = pd.read_csv('vehicles.csv')
 hist_button = st.button('Create Histogram')
 
